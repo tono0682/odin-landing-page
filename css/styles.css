@@ -1,0 +1,255 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding-top: 82px;
+    font-family: "Roboto", sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+input[type="button"] {
+    background-color: #3882f6;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 10px 25px;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+input[type="button"]:hover {
+    cursor: pointer;
+    background-color: #3163b3 ;
+}
+
+header,
+#about,
+footer {
+    background-color: #1f2937;
+}
+
+h2 {
+    color: #1f2937;
+    font-size: 2rem;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+  
+h3 {
+    margin: 1rem 0;
+}
+
+/* ********************************************
+                Header Section
+******************************************** */
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    padding: 1rem 0;
+}
+
+#logo {
+    min-width:100px ;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+
+    list-style-type: none;
+}
+
+li, a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+li:hover,a:hover {
+    color: #e5e7ebad;
+}
+
+
+/* ********************************************
+                About Section
+******************************************** */
+#about {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1.5rem;
+    
+    padding: 50px 0rem 5rem;
+
+}
+
+#about-text {
+    max-width: 50%;
+    border-radius: 20px;
+    background-color: rgb(31, 41, 55, 0.9);
+    padding: 20px 40px;
+    
+}
+
+#about-text h1 {
+    font-size: 2rem;
+    font-weight: 900;
+    color: #f9faf8;
+    margin-bottom: 0.5rem;
+}
+
+#about-text p {
+    font-size: 1rem;
+    color: #e5e7eb;
+    margin-bottom: 1rem;
+}
+
+#about-image {
+    max-width: 30%;
+    /* max-height: 195px; */
+}
+
+#about-image img {
+    border-radius: 5px;
+    max-height: 195px;
+
+}
+
+/* ********************************************
+                Our Team Section
+******************************************** */
+#our-team {
+    padding: 40px 0;
+
+}
+
+#our-team  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+#our-team-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 2rem;
+}
+
+.team-member {
+    font-size: 1.2rem;
+}
+
+.team-member img {
+    border-radius: 50px;
+    min-height: 50px;
+    max-height: 200px;
+    width: auto;
+}
+
+/* ********************************************
+                Preferred Providers Section
+******************************************** */
+#preferred-providers {
+    padding: 40px 0;
+    background: #e5e7eb;
+}
+
+#preferred-providers h2 {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+#preferred-providers-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    gap: 10%;
+}
+
+#preferred-providers-container img {
+    display: block;
+    max-width: 200px;
+    max-height: 90px;
+    width: auto;
+    height: auto;
+}
+
+/* ********************************************
+                Special Offer Section
+******************************************** */
+#special-offer {
+    padding: 4rem 0 ;
+}
+
+#special-offer h2 {
+    color: #fff;
+    margin: 0 0 0.5rem 0;
+    font-weight: 500;
+    text-align: left;
+    font-size: clamp(16px,2.2vw,24px);
+}
+
+#special-offer p {
+    color: #ddd;
+    font-size: clamp(10px,1.4vw,14px);
+  }
+
+#special-offer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5rem;
+
+    width: 80%;
+    margin: auto;
+    padding: 2rem 20px;
+    border-radius: 10px;
+    
+    color: #fff;
+    background-color: #1f2937;
+
+}
+
+#special-offer input[type="button"] {
+    border: 2px solid #fff;
+    padding: 0.7rem 2.3rem;
+  }
+  
+/* #special-offer input[type="button"]:hover {
+    background: #fff;
+    color: black;
+} */
+
+/* ********************************************
+                Footer Section
+******************************************** */
+footer {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    color: #ccc;
+  }
